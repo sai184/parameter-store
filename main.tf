@@ -17,7 +17,7 @@ variable "parameters" {
     { name = "prod.frontend.app_version", value = "1.0.0", type = "String" },
 
     ## Dev env
-    { name = "dev.expense.frontend.backend_url", value = "http://backend-dev.rdevopsb73.online/", type = "String" },
+    { name = "dev.expense.frontend.backend_url", value = "http://backend-dev.rdevopsb72online.online/", type = "String" },
 
     #    ## Common env
     #    { name = "jenkins_password", value = "admin123", type = "String" },
@@ -27,3 +27,5 @@ variable "parameters" {
 }
 ## Note: Ideally we don't keep passwords in GIT REPOS, Those will be created manually.
 ##Secret management of creating secrets is most 100% of the time is manual
+
+#if you want any parameter simple will go and runin parametere store
