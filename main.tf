@@ -26,4 +26,4 @@ variable "parameters" {
   ]
 }
 ## Note: Ideally we don't keep passwords in GIT REPOS, Those will be created manually.
-##Secret management of creating secrets is most of the time is manual
+##Secret management of creating secrets is most 100% of the time is manual
