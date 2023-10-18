@@ -3,4 +3,6 @@ default:
 	terraform init
 	terraform apply -auto-approve
 
-#rune as make
+apply:
+	terraform init
+	terraform apply -auto-approve
