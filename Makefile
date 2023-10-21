@@ -1,8 +1,8 @@
 default:
 	#git pull
-	terraform init -reconfigure
+	terraform init
 	terraform apply -auto-approve
 
 apply:
-	terraform init -reconfigure
+	terraform init
 	terraform apply -auto-approve
